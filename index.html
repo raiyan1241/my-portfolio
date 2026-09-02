@@ -25,6 +25,7 @@
         .contact-links a { color: #00d26a; text-decoration: none; margin: 0 10px; font-weight: 500; }
         .contact-links a:hover { text-decoration: underline; }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -49,14 +50,14 @@
                     <div class="card-desc">Urban landscape framing modern architecture and national identity.</div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card"><div class="card">
                 <img src="IMG_2241.JPG" alt="Cosplay Portrait">
                 <div class="card-content">
                     <div class="card-title">Flight in Motion / Skybound</div>
                     <div class="card-desc">Minimalist sky composition capturing high-altitude transit and open horizon.</div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card"><div class="card" data-aos="zoom-in">
                 <img src="IMG_1162.JPG" alt="Cosplay Portrait">
                 <div class="card-content">
                     <div class="card-title">Serene Waters / Natural Calm</div>
@@ -67,14 +68,14 @@
 
         <div class="section-title">Urban, Automotive & Life</div>
         <div class="grid">
-            <div class="card">
+            <div class="card"><div class="card" data-aos="fade-right">
                 <img src="IMG_0914.JPG" alt="Automotive Detail">
                 <div class="card-content">
                     <div class="card-title">Precision & Curves</div>
                     <div class="card-desc">Low-angle shot highlighting metallic reflections and sleek automotive geometry.</div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card"><div class="card" data-aos="fade-left">
                 <img src="1930C2D1-DA6D-4771-8629-3E061BE91623.JPG" alt="Featured Shot">
                 <div class="card-content">
                     <div class="card-title">Urban Aesthetics / Timeless Transit</div>
@@ -92,6 +93,13 @@
             <a href="https://www.instagram.com/km.raiyan?igsi=bW52MG9qcHdxaG96" target="_blank">Instagram (@km.raiyan)</a>
         </div>
     </footer>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+    
 </body>
 </html>
